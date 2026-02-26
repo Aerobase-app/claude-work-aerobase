@@ -16,7 +16,7 @@ Claude also draws on Aerobase skills automatically when you ask travel-related q
 ## Installation
 
 ```bash
-/plugin install aerobase/claude-work-aerobase
+/plugin install Aerobase-app/claude-work-aerobase
 ```
 
 ## API Key Setup

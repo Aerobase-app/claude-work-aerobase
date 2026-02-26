@@ -37,7 +37,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aerobase/claude-work-aerobase"
+    "url": "https://github.com/Aerobase-app/claude-work-aerobase"
   },
   "engines": {
     "node": ">=18"

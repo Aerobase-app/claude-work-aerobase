@@ -1,0 +1,13 @@
+{
+  "name": "aerobase",
+  "version": "1.0.0",
+  "description": "Search award flights, travel deals, and jetlag recovery plans across 23+ loyalty programs",
+  "author": {
+    "name": "Aerobase",
+    "url": "https://aerobase.app"
+  },
+  "homepage": "https://aerobase.app",
+  "repository": "https://github.com/aerobase/claude-work-aerobase",
+  "license": "MIT",
+  "keywords": ["travel", "flights", "awards", "points", "miles", "deals", "jetlag"]
+}

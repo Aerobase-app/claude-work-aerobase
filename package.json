@@ -1,0 +1,45 @@
+{
+  "name": "@aerobase/mcp-server",
+  "version": "1.0.0",
+  "description": "Aerobase MCP server — award flights, deals, and jetlag recovery plans",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "aerobase-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "aerobase",
+    "flights",
+    "awards",
+    "travel",
+    "jetlag"
+  ],
+  "author": "Aerobase <hello@aerobase.app>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aerobase/claude-work-aerobase"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

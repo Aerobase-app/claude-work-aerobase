@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "aerobase": {
+      "command": "npx",
+      "args": ["-y", "@aerobase/mcp-server"],
+      "env": {
+        "AEROBASE_API_KEY": "${AEROBASE_API_KEY}"
+      }
+    }
+  }
+}
